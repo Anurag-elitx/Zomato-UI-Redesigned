@@ -8,11 +8,11 @@ A high-fidelity redesign of the Zomato landing page using React and Vite, featur
 ## Design Screenshots
 The following designs were used as reference/inspiration for this project:
 
-![Design 1](src/assets/uploaded_media_0_1770118894375.png)
-![Design 2](src/assets/uploaded_media_1_1770118894375.png)
 ![Design 3](src/assets/uploaded_media_2_1770118894375.png)
-![Design 4](src/assets/uploaded_media_3_1770118894375.png)
 ![Design 5](src/assets/uploaded_media_4_1770118894375.png)
+![Design 4](src/assets/uploaded_media_3_1770118894375.png)
+![Design 2](src/assets/uploaded_media_1_1770118894375.png)
+![Design 1](src/assets/uploaded_media_0_1770118894375.png)
 
 ## Tech Stack
 - React
