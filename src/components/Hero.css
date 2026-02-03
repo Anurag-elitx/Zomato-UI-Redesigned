@@ -1,0 +1,116 @@
+.hero {
+    position: relative;
+    height: 60vh;
+    min-height: 500px;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.hero-content {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 1rem;
+    margin-top: -2rem;
+}
+
+.hero-logo {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-family: var(--font-heading);
+    letter-spacing: -1px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.hero-search-container {
+    display: flex;
+    background: var(--white);
+    border-radius: 8px;
+    padding: 0.8rem;
+    box-shadow: var(--shadow-md);
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    border-right: 1px solid var(--border-color);
+    width: 30%;
+    min-width: 200px;
+}
+
+.hero-location input {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: var(--text-gray);
+}
+
+.hero-search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    flex: 1;
+}
+
+.hero-search input {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: var(--text-gray);
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-logo {
+        font-size: 2.5rem;
+    }
+
+    .hero-search-container {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .hero-location,
+    .hero-search {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        padding: 0.8rem;
+    }
+
+    .hero-search {
+        border-bottom: none;
+    }
+}
